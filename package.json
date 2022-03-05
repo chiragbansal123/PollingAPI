@@ -1,0 +1,17 @@
+{
+  "name": "polling",
+  "version": "1.0.0",
+  "description": "This will create an api in which you can create a question and add option,votes to that question",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chirag Bansal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mddir": "^1.1.1",
+    "mongoose": "^6.2.4"
+  }
+}
